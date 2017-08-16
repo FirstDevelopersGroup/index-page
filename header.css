@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: STC Regular;
+}
+/*header style*/
+  .index-header-content{
+    background-image: url(https://images.pexels.com/photos/433639/pexels-photo-433639.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    height: 100vh;
+    background-size: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .index-header-overlay {
+  background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    background-size:100% 100%;
+    margin:0 ;
+  }
+
+  .index-logo{
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 19.75%;
+  float: right;
+  border-radius: 7px;
+  margin-top: 0.5%;
+  }
+  .index-logo-img{
+  margin:-4% -1%;
+  }
+
+  #index-bar{
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+  }
+
+  .index-header-title{
+    font-size: 52px;
+    color: #fff;
+    font-family: STC Regular;
+    position: absolute;
+    top: 23%;
+    left: 40%
+  }
+
+  .index-intro{
+font-size:33px;
+color: #fff;
+font-family: STC Regular;
+position: absolute;
+top: 40%;
+left: 37%
+  }
+
+  .index-sign-in{
+    border: 2px solid #eeeeee;
+        color: #fff !important;
+        background: rgba(255, 255, 255, 0.4);
+        width: 10%;
+        height: 7%;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: STC Regular;
+        position: absolute;
+        top: 77%;
+        left: 41%;
+        margin-left: -1%;
+
+  }
+
+  .index-sign-up{
+
+        color: #fff !important;
+        width: 10%;
+        height: 7%;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: STC Regular;
+        position: absolute;
+        top: 77%;
+        left: 52%;
+    background-color: #32c7ba;
+    border:none;
+  }
+/*end of header style*/
