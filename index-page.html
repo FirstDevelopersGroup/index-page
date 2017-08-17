@@ -10,19 +10,53 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <!-- index-header-content-->
-<div class="index-header-content">
-       <!-- index-header-overlay-->
+  <!--index Header-->
+  <div class="index-header-content">
+  <!-- index-header-overlay-->
   <div class="index-header-overlay"></div>
-  <i id="index-bar" class="fa fa-bars" aria-hidden="true"></i>
+  <i id="index-bar" class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
   <p class="index-header-title">أكاديمية فجن</p>
   <p class="index-intro">عندما يلتقي الابداع بالكفاءة</p>
   <input type="button" class="index-sign-in" name="m" value="تسجيل الدخول">
   <input type="button" class="index-sign-up" name="n" value="تسجيل">
   <div class="index-logo">
   <img src="http://visionacademy.online/assets/images/logo.png" alt="logo" class="index-logo-img" width="250px"></div>
+  </div>
+  <!--end of index Header-->
+  <!-------------------------------------------------------------------------------------->
+  <!--index Menu-->
+<div id="index-menu-content" class="index-menu-content">
+   <!-- index-menu-overlay-->
+  <div class="index-menu-overlay"></div>
+  <div class="index-logo">
+  <img src="http://visionacademy.online/assets/images/logo.png" alt="logo" class="index-logo-img" width="250px"></div>
+  <i class="fa fa-times" aria-hidden="true" id="index-menu-bar" onclick="closeMenu()"></i>
+<div class="index-menu-links">
+<a href="#" dir="rtl"><i class="fa fa-sign-in" aria-hidden="true"></i> دخول</a><br>
+<a href="#"dir="rtl"><i class="fa fa-user-plus" aria-hidden="true"></i> انشاء حساب </a><br>
+<a href="#"dir="rtl"><i class="fa fa-book" aria-hidden="true"></i> استعراض المقررات</a><br>
+<a href="#"dir="rtl"><i class="fa fa-users" aria-hidden="true"></i> استعراض المحاضرين</a><br>
+<a href="#"dir="rtl"><i class="fa fa-question-circle" aria-hidden="true"></i> الأسئلة الشائعة </a><br>
 </div>
-  <!--end of index-header-content-->
-  <!--end of landing-->
+<input class="index-search" type="search" placeholder="  بحث " dir="rtl">
+<div class="index-menu-contact">
+<p>للتواصل</p>
+<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+</div>
+</div>
+  <!--end of index Menu-->
+
+<script type="text/javascript">
+  function showMenu() {
+ document.getElementById('index-menu-content').style.display = "block";
+}
+ function closeMenu() {
+document.getElementById('index-menu-content').style.display = "none";
+}
+</script>
+<!--end of landing-->
 </body>
 </html>

@@ -91,3 +91,120 @@ left: 37%
     border:none;
   }
 /*end of header style*/
+/*--------------------------------------------------------------------------*/
+/*Menu style*/
+  .index-menu-content{
+    /*background-image: url(http://i.imgur.com/rPvxulV.jpg);*/
+    height: 100vh;
+    background-size: 100%;
+    width: 100%;
+    position: relative;
+    position:absolute;
+    top: 0;
+    left: 0;
+    display:none;
+
+  }
+#index-menu-bar{
+  color: #32c7ba;
+  font-size: 28px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+
+}
+
+  .index-menu-overlay {
+  background: rgba(0,0,0,0.69);
+    height: 100vh;
+    background-size:100% 100%;
+    margin:0 ;
+  }
+
+  .index-logo{
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 19.75%;
+  float: right;
+  border-radius: 7px;
+  margin-top: 0.5%;
+  }
+  .index-logo-img{
+  margin:-4% -1%;
+  }
+.index-menu-links{
+
+position: absolute;
+top: 15%;
+right: 7%;
+font-size: 36px;
+
+}
+.index-menu-links a{
+  text-decoration: none;
+  color: #fff;
+  float: right;
+}
+.index-menu-links i{
+  color:#32c7ba;
+
+}
+.index-search
+ {
+   position: absolute;
+       top: 35%;
+       left: 12%;
+       width: 20%;
+       height: 6%;
+       border: 2px solid #32c7ba;
+       background-color: rgba(255, 255,255, 0.2);
+       color: #fff;
+
+}
+
+.index-search::-webkit-input-placeholder {
+    color: #fff;
+      font-family: STC Regular;
+      font-size: 17px;
+
+}
+.index-search:-moz-placeholder {
+
+    color: #fff;
+      font-family: STC Regular;
+      font-size: 17px;
+}
+.index-search::-moz-placeholder {
+
+    color: #fff;
+      font-family: STC Regular;
+      font-size: 17px;
+}
+.index-search:-ms-input-placeholder {
+
+    color: #fff;
+      font-family: STC Regular;
+      font-size: 17px;
+}
+.index-menu-contact {
+  position: absolute;
+    top: 51%;
+    left: 12%;
+    float: left;
+    clear: none;
+
+    text-align: center;
+    font-size: 39px;
+}
+.index-menu-contact a{
+ color:#32c7ba;
+   text-decoration: none;
+   float: left;
+   margin-left: 20px;
+ }
+.index-menu-contact p{
+
+  color: #fff;
+}
+/*end of Menu style*/
