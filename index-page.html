@@ -6,39 +6,92 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="index-page.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="css/index-page.css">
+    
+
 </head>
+
 <body>
-  <!--index Header-->
-  <div class="index-header-content">
-  <!-- index-header-overlay-->
-  <div class="index-header-overlay"></div>
-  <i id="index-bar" class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
-  <p class="index-header-title">أكاديمية فجن</p>
-  <p class="index-intro">عندما يلتقي الابداع بالكفاءة</p>
-  <input type="button" class="index-sign-in" name="m" value="تسجيل الدخول">
-  <input type="button" class="index-sign-up" name="n" value="تسجيل">
-  <div class="index-logo">
-  <img src="http://visionacademy.online/assets/images/logo.png" alt="logo" class="index-logo-img" width="250px"></div>
-  </div>
-  <!--end of index Header-->
-  <!-------------------------------------------------------------------------------------->
-  <!--index Menu-->
-<div id="index-menu-content" class="index-menu-content">
-   <!-- index-menu-overlay-->
-  <div class="index-menu-overlay"></div>
-  <div class="index-logo">
-  <img src="http://visionacademy.online/assets/images/logo.png" alt="logo" class="index-logo-img" width="250px"></div>
-  <i class="fa fa-times" aria-hidden="true" id="index-menu-bar" onclick="closeMenu()"></i>
+
+
+<div class="container-fluid">
+
+<!-- start of t-index-container -->
+<div class="t-index-landing-container">
+
+<div class="t-index-overlay">
+
+<div class="run">
+<div id="t-index-open-menu" class="t-container-menu" onclick="myFunction('open')">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+</div>
+
+
+
+
+<div class="t-index-img">
+	
+	<img src="images/logo.png">
+
+</div>
+<!-- end of t-index-img -->
+
+<div class="t-index-title">
+	<h1 class="t-index-name">أكاديمية فجن</h1>
+	<p class="t-index-p">عندما يلتقي الإبداع بالكفاءة</p>
+
+
+</div>
+<!-- end of t-index-title -->
+
+	
+
+<button class="t-index-login"><a  href="#">تسجيل دخول</a></button>
+<button class="t-index-sign-up"><a  href="#"> تسجيل </a></button>
+
+
+
+</div>	
+<!-- end of t-index-overlay-->
+
+
+<div id="t-index-overlay-menu" class="t-index-overlay-menu">
+
+<div class="run">
+
+<div  id="t-index-close-menu " class="t-container-menu" onclick="myFunction('close')">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+</div>
+
+
+<div class="t-index-img">
+	
+	<img src="images/logo.png">
+
+</div>
+<!-- end of t-index-img -->
+
+
+<!-- start of index-menu-links-->
 <div class="index-menu-links">
-<a href="#" dir="rtl"><i class="fa fa-sign-in" aria-hidden="true"></i> دخول</a><br>
-<a href="#"dir="rtl"><i class="fa fa-user-plus" aria-hidden="true"></i> انشاء حساب </a><br>
 <a href="#"dir="rtl"><i class="fa fa-book" aria-hidden="true"></i> استعراض المقررات</a><br>
 <a href="#"dir="rtl"><i class="fa fa-users" aria-hidden="true"></i> استعراض المحاضرين</a><br>
 <a href="#"dir="rtl"><i class="fa fa-question-circle" aria-hidden="true"></i> الأسئلة الشائعة </a><br>
 </div>
+<!-- end of index-menu-links-->
+
+
 <input class="index-search" type="search" placeholder="  بحث " dir="rtl">
+
+<!-- start index-menu-contact-->
 <div class="index-menu-contact">
 <p>للتواصل</p>
 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -46,17 +99,29 @@
 <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
 </div>
-</div>
-  <!--end of index Menu-->
+<!-- end index-menu-contact-->
 
-<script type="text/javascript">
-  function showMenu() {
- document.getElementById('index-menu-content').style.display = "block";
-}
- function closeMenu() {
-document.getElementById('index-menu-content').style.display = "none";
-}
-</script>
-<!--end of landing-->
+
+
+
+</div>	
+<!-- end of t-index-overlay-menu-->
+
+
+</div>
+<!-- end of t-index-landing-container -->
+
+
+<div class="xx">
+
+المحتوى حقكم هنا :) 
+
+</div>
+
+</div>
+
+<!--end of container-fluid-->
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/index-js.js"></script>
 </html>
